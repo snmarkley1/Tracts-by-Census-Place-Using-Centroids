@@ -1,4 +1,4 @@
-# Tracts-by-Census-Place-Centroid
+#  Tracts-by-Census-Place-Using-Centroids
 
 ## Summary
 The R scripts in this repository produce output .csv and .xlsx files that include all census tracts in the U.S. assigned to the Census Place (*e.g.*, city) in which their centroid is located. The scripts are written to allow users to produce this file for the whole U.S. or for individual states. Further, they can specify which tract or place vintage (2010 or later) they would like to use. In the `file_download` folder, I have provided a .csv and .xlsx file using 2010 and 2020 tract vintages with 2021 place vintages.
