@@ -20,7 +20,7 @@ st <- "USA"  # all states
 place_yr <- 2021  # with 2020, getting errors with some states; recommend 2021
 
 ## set tract year (vintages need to be >= 2011)
-tract_yr <- 2018  # for 2010 vintages, choose any year 2015-2019
+tract_yr <- 2021  # for 2010 vintages, choose any year 2015-2019
 
 
 
