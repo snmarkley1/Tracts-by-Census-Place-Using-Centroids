@@ -23,7 +23,11 @@ The codebook for the .csv and .xlsx files is as follows:
 - `COUNTY`: county in which a tract is located
 - `TRACTID`: unique tract identifier provided by the U.S. Census. This identifier should be 11 characters long, but the .csv drops leading zeroes for Alabama, Alaska, Arizona, Arkansas, California, Colorado, and Connecticut.
 - `NHGISID`: unique tract identifier in [NHGIS](https://www.nhgis.org/) format.
-
+- `PLACEID`: unique Census Place identifier provided by the U.S. Census. If blank (.xlsx) or NA (.csv), then that tract's centroid does not land in a Census Place.
+- `PLACE`: the name of the Census Place in which the tract's centroid is located. If blank (.xlsx) or NA (.csv), then that tract's centroid does not land in a Census Place.
+- `PLACE_TYPE`: the Census Place type based on their LSAD (*e.g.*, city, borough, township, village, CDP, etc.). If blank (.xlsx) or NA (.csv), then that tract's centroid does not land in a Census Place.
+- `TR_VINTAGE` - the tract's vintage (either 2010 or 2020)
+- `PL_VINTAGE` - the Census Place's vintage (set to 2021 in output files but can be changed by user).
 
 ## License
 The data collected and presented are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), and the underlying code used to format, analyze, and display that content is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
