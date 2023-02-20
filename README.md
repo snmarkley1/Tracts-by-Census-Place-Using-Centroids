@@ -7,8 +7,8 @@ The R scripts in this repository produce output .csv and .xlsx files that includ
 This repository includes three folders: `file_download`, `input_tables`, and `scripts`.
 
 The `file_download` folder contains two identical .csv and .xlsx files.
-- *tracts_by_place_centroid_USA_t2010_p2021* uses 2010 tract vintages and 2021 place vintages.
-- *tracts_by_place_centroid_USA_t2020_p2021* uses 2020 tract vintages and 2021 place vintages.
+- `tracts_by_place_centroid_USA_t2010_p2021` uses 2010 tract vintages and 2021 place vintages.
+- `tracts_by_place_centroid_USA_t2020_p2021` uses 2020 tract vintages and 2021 place vintages.
 
 The `scripts` folder contains two R scripts:
 
